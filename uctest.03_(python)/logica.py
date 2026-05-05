@@ -1,5 +1,5 @@
 import pytest
-from uctest.02_(python) import uctest.01.py, uctest.02.py, uctest.py
+from uctest.02_(python) import verificar_login, criar_conta, dados_usuario
 
 @pytest.fixture9(autouse=True)
 def reset_usuarios():
